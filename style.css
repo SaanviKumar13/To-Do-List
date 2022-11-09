@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 2;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: serif;
+    background-color: #eae0ef;
+
+}
+
+.logo {
+    font-size: 2em;
+    padding: 0.7em;
+    text-align: center;
+}
+
+.task {
+    padding: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-element {
+    display: flex;
+    background-color: #9c7182;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1rem;
+   color: black;
+
+}
+.task-elements{
+    display: flex;
+background-color: #eae0ef;
+justify-content: space-between;
+padding: 0.5rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.task-add-btn{
+    background-color: #9c7182;
+    color: black;
+    font-family: serif;
+	font-size: 1.25rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.task-add-btn :hover {
+opacity:0.7;
+}
+.task-add-btn :active {
+    opacity:0.3;
+}
+
+.task-input{
+    flex: 110%;
+    background-color: #e7c1d4;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+    margin : 0.5rem;
+    color: black;
+    font-size: medium;
+}
+.delete{
+    background-color: antiquewhite;
+    color: black;
+}
+
